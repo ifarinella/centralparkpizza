@@ -82,6 +82,9 @@ header nav ul li a:hover{
 }
 
 .hero-index div h2 a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: #1e1e24;
     background-color: #f9c374;
@@ -108,11 +111,8 @@ header nav ul li a:hover{
 .variedades-index div div{
     border: 1px solid #f9c374;
     border-radius: 10px;
-    height: 230px;
+    height: 250px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 
@@ -123,11 +123,15 @@ header nav ul li a:hover{
 }
 
 .variedades-index div div h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     color: #f9c374;
     text-align: center;
 }
 
 .variedades-index h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 .variedades-index h2 a{
@@ -167,6 +171,7 @@ header nav ul li a:hover{
     padding: 0 50px 20px 50px;
     color: #3F292B;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 .eventos-index div img{
@@ -176,6 +181,8 @@ header nav ul li a:hover{
 }
 
 .eventos-index div h3 a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     text-decoration: none;
     background-color: #3F292B;
     color: #cd1b1b;
@@ -206,6 +213,7 @@ header nav ul li a:hover{
 .cursos-index div h2{
     color: #5FAD41;
     font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -219,11 +227,14 @@ header nav ul li a:hover{
 .cursos-index div p{
     color: #f9c374;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
     padding: 0 100px 20px 100px;
 }
 
 .cursos-index div h4{
     padding: 5px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 .cursos-index div h4 a{
@@ -250,7 +261,7 @@ header nav ul li a:hover{
 /*----MENU----*/
 .variedades-menu{
     width: 100%;
-    height: 550px;
+    height: 600px;
     background-color: #5FAD41;
     font-family: 'Montserrat', sans-serif;
 }
@@ -261,16 +272,19 @@ header nav ul li a:hover{
     font-weight: bolder;
 }
 .variedades-menu div div h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: #1e1e24;
+}
+
+.variedades-menu div div p{
+    font-size: 15px;
 }
 
 .variedades-menu div{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 250px;
-    gap: 10px;
 }
 
 
@@ -278,6 +292,7 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+    gap: 10px;
 }
 
 .variedades-menu div div img{
@@ -304,10 +319,12 @@ header nav ul li a:hover{
 
 .armatupizza-menu div h2{
     padding: 0 0 50px 0;
+    font-size: 30px;
 }
 
 .armatupizza-menu div p{
     margin: 0 45px 0 45px;
+    font-size: 20px;
 }
 
 .armatupizza-menu div img{
@@ -334,6 +351,11 @@ header nav ul li a:hover{
 .contacto-nosotros h2{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contacto-nosotros p{
+    font-size: 20px;
 }
 
 .contacto-nosotros div{
@@ -344,9 +366,18 @@ header nav ul li a:hover{
 }
 
 .contacto-nosotros div h3{
+    font-size: 20px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.formulario-contactos{
+    width: 100%;
+    height: 450px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#5FAD41;
 }
 
 
@@ -378,12 +409,18 @@ header nav ul li a:hover{
     justify-content: space-evenly;
 }
 
+.eventos-sociales h2{
+    font-size: 30px;
+}
+
 .eventos-sociales p{
+    font-size: 15px;
     margin: 0 25px 0 25px;
 }
 
 .eventos-sociales a{
     text-decoration: none;
+    font-size: 15px;
     font-weight: bolder;
     color: #1e1e24;
     background-color:#cd1b1b;
@@ -409,8 +446,17 @@ header nav ul li a:hover{
     justify-content: space-evenly;
 }
 
+.eventos-empresariales h2{
+    font-size: 30px;
+}
+
+.eventos-empresariales p{
+    font-size: 15px;
+}
+
 .eventos-empresariales a{
     text-decoration: none;
+    font-size: 15px;
     font-weight: bolder;
     color: #1e1e24;
     background-color:#cd1b1b;
@@ -437,8 +483,17 @@ header nav ul li a:hover{
     justify-content: space-evenly;
 }
 
+.eventos-pizzaparty h2{
+    font-size: 30px;
+}
+
+.eventos-pizzaparty p{
+    font-size: 15px;
+}
+
 .eventos-pizzaparty a{
     text-decoration: none;
+    font-size: 15px;
     font-weight: bolder;
     color: #1e1e24;
     background-color:#cd1b1b;
@@ -451,7 +506,24 @@ header nav ul li a:hover{
     background-color: #5FAD41;
 }
 
-/*GALERIA EVENTOS BOOTSTRAP*/
+.container-flow{
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-color:#f9c374;
+}
+
+.container-flow h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.container-flow .row img{
+    width: 25%;
+    height: 150px;
+}
 
 
 .marcas-eventos{
@@ -463,6 +535,8 @@ header nav ul li a:hover{
 }
 
 .marcas-eventos h2{
+    font-size: 30px;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -477,6 +551,7 @@ header nav ul li a:hover{
 /*----SUCURSALES----*/
 
 .mapas-sucursales{
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: calc(100vh - 105px);
     background-color: #3F292B;
@@ -490,7 +565,12 @@ header nav ul li a:hover{
 }
 
 .mapas-sucursales div h2{
+    font-size: 25px;
     margin-bottom: 30px;
+}
+
+.mapas-sucursales div p{
+    font-size: 20px;
 }
 
 .mapas-sucursales div iframe{
@@ -517,6 +597,7 @@ header nav ul li a:hover{
 
 .franquicias-sucursales h2{
     font-size: 30px;
+    font-weight: bold;
     margin-bottom: 50px;
 }
 
@@ -527,6 +608,9 @@ header nav ul li a:hover{
 }
 
 .franquicias-sucursales a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3F292B;
     background-color: #f9c374;
     text-decoration: none;
     border-radius: 10px;
@@ -565,4 +649,29 @@ footer h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #1e1e24;
+}
+
+
+/*---MEDIA QUERIES--*/
+
+@media screen and (max-width:950px){
+    .variedades-menu div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 200px;
+    }
+    .variedades-menu{
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .variedades-menu div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 180px;
+    }
+    .variedades-menu{
+        height: 1300px;
+    }
 }
