@@ -3,72 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--BOOTSTRAP-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <title>Eventos</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-bar">
-                <li><a href="menu.html">Menú</a></li>
-                <li><a href="sucursales.html">Sucursales</a></li>
-                <li><a href="../index.html"><img src="../img/logocompleto.png" alt="Logo de Central Park Pizza"></a></li>
-                <li><a href="eventos.html">Eventos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            
-        </nav>
-    </header>
-    <main>
-        <section class="opciones-eventos">
-            <!--VA UNA IMAGEN DE FONDO PARA CADA DIV-->
-            <div class="eventos-sociales">
-                <h2>Eventos Sociales</h2>
-                <p>Celebrá esa ocasión especial con tus seres queridos con la mejor pizza de New York.</p>
-                <a href="contacto.html">Más info +</a>
+    <div class="container-fluid">
+        <header>
+            <nav>
+                <ul  class="row align-items-center">
+                    <div class="col-lg-4 col-md-12">
+                        <li><a href="../index.html"><img src="../img/logocompleto.png" alt="Logo de Central Park Pizza"></a></li>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <li><a href="menu.html">Menú</a></li>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <li><a href="sucursales.html">Sucursales</a></li>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <li><a href="eventos.html">Eventos</a></li>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="opciones-eventos row">
+                <!--VA UNA IMAGEN DE FONDO PARA CADA DIV-->
+                <div class="eventos-sociales col-lg-4 col-md-12">
+                    <div>
+                        <h2>Eventos Sociales</h2>
+                        <p>Celebrá esa ocasión especial con tus seres queridos con la mejor pizza de New York.</p>
+                        <a href="contacto.html">Más info +</a>
+                    </div>
+                    
+                </div>
+                <div class="eventos-empresariales col-lg-4 col-md-12">
+                    <div>
+                        <h2>Eventos empresariales</h2>
+                        <p>Nos adaptamos a la necesidad que cada cliente. Ya sea una celebración, una fiesta de fin de año, una reunión con clientes. Sumale algo distinto y destacá cualquier ocasión.</p>
+                        <a href="contacto.html">Más info +</a>
+                    </div>
+                    
+                </div>
+                <div class="eventos-pizzaparty col-lg-4 col-md-12">
+                    <div>
+                        <h2>Pizza Party</h2>
+                        <p>Sumale nuesta estación de pizzas a tu evento. Recepción, fin de fiesta, festivales, recitales. Cualquier evento mejora con una buena pizza.</p>
+                        <a href="contacto.html">Más info +</a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="eventos-ejemplos row">
+                <h2>Algunos eventos en los que participamos</h2>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="../img/social1.jpg" alt="Evento social">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="../img/social2.jpg" alt="Evento social">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="../img/social3.jpg" alt="Evento social">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="../img/social4.jpg" alt="Evento social">
+                </div>
+            </section>
+            <section class="marcas-eventos row">
+                <h2>Estas son las empresas que nos eligen</h2>
+                <!--ACÁ VAN LOGOS DE EMPRESAS-->
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/el-verano.png" alt="Logo Sunbeach">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/futbol.png" alt="Logo Viva Sports">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/hospital.png" alt="Logo Medicare">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/sonido.png" alt="Logo xtex">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/tecnologia.png" alt="Logo Universal Tech">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <img src="../img/bicicleta.jpg" alt="Logo Bycle">
+                </div>            
+            </section>
+        </main>
+        <footer class="row align-items-center">
+            <div class="col-lg-2 col-md-12">
+                <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt="Link al perfil de Instagram de la empresa"></a>
             </div>
-            <div class="eventos-empresariales">
-                <h2>Eventos empresariales</h2>
-                <p>Nos adaptamos a la necesidad que cada cliente. Ya sea una celebración, una fiesta de fin de año, una reunión con clientes. Sumale algo distinto y destacá cualquier ocasión.</p>
-                <a href="contacto.html">Más info +</a>
+            <div class="col-lg-2 col-md-12">
+                <a href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="Link al perfil de Facebook de la empresa"></a>
             </div>
-            <div class="eventos-pizzaparty">
-                <h2>Pizza Party</h2>
-                <p>Sumale nuesta estación de pizzas a tu evento. Recepción, fin de fiesta, festivales, recitales. Cualquier evento mejora con una buena pizza.</p>
-                <a href="contacto.html">Más info +</a>
+            <div class="col-lg-2 col-md-12">
+                <a href="https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="Link al chat de WhatsApp con la empresa"></a>
             </div>
-        </section>
-        <section class="container-flow">
-            <h2>Algunos eventos en los que participamos</h2>
-            <div class="row">
-                <img src="../img/social1.jpg" alt="Evento social" class="column">
-                <img src="../img/social2.jpg" alt="Evento social" class="column">
-                <img src="../img/social3.jpg" alt="Evento social" class="column">
-                <img src="../img/social4.jpg" alt="Evento social" class="column">
+            <div class="col-lg-6 col-md-12">
+                <h3>Hacé click y seguinos en nuestras redes sociales</h3>
             </div>
-            
-        </section>
-        <section class="marcas-eventos">
-            <h2>Estas son las empresas que nos eligen</h2>
-            <!--ACÁ VAN LOGOS DE EMPRESAS-->
-            <div>
-                <img src="../img/el-verano.png" alt="Logo Sunbeach">
-                <img src="../img/futbol.png" alt="Logo Viva Sports">
-                <img src="../img/hospital.png" alt="Logo Medicare">
-                <img src="../img/sonido.png" alt="Logo xtex">
-                <img src="../img/tecnologia.png" alt="Logo Universal Tech">
-            </div>
-            
-        </section>
-    </main>
-    <footer>
-        <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt="Link al perfil de Instagram de la empresa"></a>
-        <a href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="Link al perfil de Facebook de la empresa"></a>
-        <a href="https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="Link al chat de WhatsApp con la empresa"></a>
-        <h3>Hacé click y seguinos en nuestras redes sociales</h3>
-    </footer>
+        </footer>
+    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
