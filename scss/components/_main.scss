@@ -1,0 +1,460 @@
+@import "../base/variables";
+
+/*---------------MAIN-----------------*/
+
+/*----INDEX----*/
+
+div{
+    main{
+        .hero-index{
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/herobackground2.jpg);
+            width: 100%;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            div{
+                color: $color-secundario;
+                text-align: center;
+                font-weight: bolder;
+                p{
+                    margin-bottom: 150px;
+                    font-size: 20px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                h1{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 50px;
+                    padding: 30px 0 60px 0;
+                }
+                h2{
+                    a{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-decoration: none;
+                        color: $color-quinario;
+                        background-color: $color-secundario;
+                        padding: 3px 10px 7px 10px;
+                        border-radius: 10px;
+                        transition: 1s;
+                        &:hover{
+                            background-color:$color-terciario;
+                        }
+                    }
+                }
+            }
+        }
+        .variedades-index{
+            background-color:$color-quinario;
+            div{
+                border: 1px solid $color-secundario;
+                border-radius: 10px;
+                padding: 10px;
+                img{
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 10px;
+                }
+                h2{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    color: $color-secundario;
+                    text-align: center;
+                    margin-top: 0;
+                }
+            }
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    color: $color-secundario;
+                    padding: 3px 10px 7px 10px;
+                    background-color: $color-principal;
+                    border-radius: 10px;
+                    transition: 1s;
+                    &:hover{
+                        background-color:$color-terciario;
+                    }
+                }
+            }
+        }
+        .eventos-index{
+            background-color: $color-secundario;
+            text-align: center;
+            div{
+                div{
+                    h2{
+                        color: $color-quinario;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 30px;
+                        padding: 50px 50px 30px 50px;
+                    }
+                    p{
+                        padding: 0 50px 20px 50px;
+                        color: $color-cuaternario;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 20px;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+                    h3{
+                        a{
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 20px;
+                            text-decoration: none;
+                            background-color: $color-cuaternario;
+                            color: $color-principal;
+                            padding: 7px 10px 10px 10px;
+                            border-radius: 10px;
+                            transition: 1s;
+                            &:hover{
+                                background-color:$color-terciario;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cursos-index{
+            background-color: $color-quinario;
+            div{
+                div{
+                    iframe{
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                    h2{
+                        color: $color-terciario;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                    h3{
+                        color: $color-secundario;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 30px;
+                        padding: 50px 50px 30px 50px;
+                    }
+                    p{
+                        color: $color-secundario;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        padding: 0 100px 20px 100px;
+                    }
+                    h4{
+                        padding: 5px 0 10px 0;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        a{
+                            text-decoration: none;
+                            background-color: $color-secundario;
+                            color: $color-quinario;
+                            padding: 4px 10px 4px 10px;
+                            border-radius: 10px;
+                            transition: 1s;
+                            &:hover{
+                                background-color:$color-terciario;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cursos-contacto{
+            text-align: center;
+        }
+    }
+}
+
+/*----MENU----*/
+
+div{
+    main{
+        .variedades-menu{
+            background-color: $color-terciario;
+            font-family: 'Montserrat', sans-serif;
+            h2{
+                text-align: center;
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            div{
+                h2{
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: $color-quinario;
+                }
+                p{
+                    font-size: 15px;
+                }
+                img{
+                    width: 90%;
+                    height: 70%;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .armatupizza-menu{
+            background-color:$color-cuaternario;
+            font-family: 'Montserrat', sans-serif;
+            color: $color-secundario;
+            text-align: center;
+            div{
+                h2{
+                    padding: 0 0 50px 0;
+                    font-size: 30px;
+                }
+                p{
+                    margin: 0 45px 0 45px;
+                    font-size: 20px;
+                }
+                img{
+                    width: 90%;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+/*----CONTACTO----*/
+
+div{
+    main{
+        .contacto-nosotros{
+            background-color: $color-secundario;
+            font-family: 'Montserrat', sans-serif;
+            color: $color-cuaternario;
+            text-align: center;
+            div{
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                div{
+                    margin-top: 50px;
+                    h3{
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .formulario-contactos{
+            font-family: 'Montserrat', sans-serif;
+            background-color:$color-terciario;
+        }
+    }
+}
+
+/*----EVENTOS----*/
+
+div{
+    main{
+        .opciones-eventos{
+            color: $color-secundario;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        .eventos-sociales{
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/eventossociales.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment:local;
+            div{
+                padding-top: 40%;
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 15px;
+                    margin: 0 25px 0 25px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: bolder;
+                    color: $color-quinario;
+                    background-color:$color-principal;
+                    border-radius: 10px;
+                    margin: 0 130px 0 130px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-terciario;
+                    }
+                }
+            }
+        }
+        .eventos-empresariales{
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/eventosempresariales.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: local;
+            div{
+                padding-top: 40%;
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: bolder;
+                    color: $color-quinario;
+                    background-color: $color-principal;
+                    border-radius: 10px;
+                    margin: 0 130px 0 130px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-terciario;
+                    }
+                }
+            }
+        }
+        .eventos-pizzaparty{
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pizzaparty.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: local;
+            div{
+                padding-top: 40%;
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: bolder;
+                    color: $color-quinario;
+                    background-color:$color-principal;
+                    border-radius: 10px;
+                    margin: 0 130px 0 130px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-terciario;
+                    }
+                }
+            }
+        }
+        .eventos-ejemplos{
+            background-color:$color-secundario;
+            h2{
+                text-align: center;
+                font-weight: bold;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 25px;
+            }
+            div{
+                img{
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .marcas-eventos{
+            background-color:$color-terciario;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            h2{
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            div{
+                img{
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+/*----SUCURSALES----*/
+
+div{
+    main{
+        .mapas-sucursales{
+            font-family: 'Montserrat', sans-serif;
+            width: 100%;
+            height: 90vh;
+            background-color: $color-cuaternario;
+            color: $color-secundario;
+            div{
+                h2{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                iframe{
+                    width: 100%;
+                    height: 80%;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .franquicias-sucursales{
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/franquicias.jpg);
+            width: 100%;
+            height: 40vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: local;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(255, 23, 23);
+            text-align: center;
+            h2{
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: bolder;
+                padding: 0 20px 30px 20px;
+            }
+            a{
+                font-size: 20px;
+                font-weight: bold;
+                color: $color-cuaternario;
+                background-color: $color-secundario;
+                text-decoration: none;
+                border-radius: 10px;
+                padding: 0 10px 0 10px;
+                transition: 1s;
+                &:hover{
+                    background-color: $color-terciario;
+                }
+            }
+        }
+    }
+}

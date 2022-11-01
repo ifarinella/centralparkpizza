@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*--COLORES--*/
+/*--COLORES--*/
+/*----HEADER----*/
+div header {
+  background-color: #cd1b1b;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; }
+  div header nav ul {
+    list-style: none;
+    text-align: center; }
+    div header nav ul div li a {
+      text-decoration: none;
+      color: #3F292B;
+      transition: 2s; }
+      div header nav ul div li a img {
+        height: 20vh; }
+      div header nav ul div li a:hover {
+        color: #5FAD41; }
+
+/*--COLORES--*/
+/*---------------MAIN-----------------*/
+/*----INDEX----*/
+div main .hero-index {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/herobackground2.jpg);
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  div main .hero-index div {
+    color: #f9c374;
+    text-align: center;
+    font-weight: bolder; }
+    div main .hero-index div p {
+      margin-bottom: 150px;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif; }
+    div main .hero-index div h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      padding: 30px 0 60px 0; }
+    div main .hero-index div h2 a {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #1e1e24;
+      background-color: #f9c374;
+      padding: 3px 10px 7px 10px;
+      border-radius: 10px;
+      transition: 1s; }
+      div main .hero-index div h2 a:hover {
+        background-color: #5FAD41; }
+
+div main .variedades-index {
+  background-color: #1e1e24; }
+  div main .variedades-index div {
+    border: 1px solid #f9c374;
+    border-radius: 10px;
+    padding: 10px; }
+    div main .variedades-index div img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px; }
+    div main .variedades-index div h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      color: #f9c374;
+      text-align: center;
+      margin-top: 0; }
+  div main .variedades-index h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px; }
+    div main .variedades-index h2 a {
+      text-decoration: none;
+      color: #f9c374;
+      padding: 3px 10px 7px 10px;
+      background-color: #cd1b1b;
+      border-radius: 10px;
+      transition: 1s; }
+      div main .variedades-index h2 a:hover {
+        background-color: #5FAD41; }
+
+div main .eventos-index {
+  background-color: #f9c374;
+  text-align: center; }
+  div main .eventos-index div div h2 {
+    color: #1e1e24;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 50px 50px 30px 50px; }
+  div main .eventos-index div div p {
+    padding: 0 50px 20px 50px;
+    color: #3F292B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; }
+  div main .eventos-index div div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; }
+  div main .eventos-index div div h3 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #3F292B;
+    color: #cd1b1b;
+    padding: 7px 10px 10px 10px;
+    border-radius: 10px;
+    transition: 1s; }
+    div main .eventos-index div div h3 a:hover {
+      background-color: #5FAD41; }
+
+div main .cursos-index {
+  background-color: #1e1e24; }
+  div main .cursos-index div div iframe {
+    width: 100%;
+    border-radius: 10px; }
+  div main .cursos-index div div h2 {
+    color: #5FAD41;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center; }
+  div main .cursos-index div div h3 {
+    color: #f9c374;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 50px 50px 30px 50px; }
+  div main .cursos-index div div p {
+    color: #f9c374;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 0 100px 20px 100px; }
+  div main .cursos-index div div h4 {
+    padding: 5px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; }
+    div main .cursos-index div div h4 a {
+      text-decoration: none;
+      background-color: #f9c374;
+      color: #1e1e24;
+      padding: 4px 10px 4px 10px;
+      border-radius: 10px;
+      transition: 1s; }
+      div main .cursos-index div div h4 a:hover {
+        background-color: #5FAD41; }
+
+div main .cursos-contacto {
+  text-align: center; }
+
+/*----MENU----*/
+div main .variedades-menu {
+  background-color: #5FAD41;
+  font-family: 'Montserrat', sans-serif; }
+  div main .variedades-menu h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder; }
+  div main .variedades-menu div h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e1e24; }
+  div main .variedades-menu div p {
+    font-size: 15px; }
+  div main .variedades-menu div img {
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover; }
+
+div main .armatupizza-menu {
+  background-color: #3F292B;
+  font-family: 'Montserrat', sans-serif;
+  color: #f9c374;
+  text-align: center; }
+  div main .armatupizza-menu div h2 {
+    padding: 0 0 50px 0;
+    font-size: 30px; }
+  div main .armatupizza-menu div p {
+    margin: 0 45px 0 45px;
+    font-size: 20px; }
+  div main .armatupizza-menu div img {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+/*----CONTACTO----*/
+div main .contacto-nosotros {
+  background-color: #f9c374;
+  font-family: 'Montserrat', sans-serif;
+  color: #3F292B;
+  text-align: center; }
+  div main .contacto-nosotros div h2 {
+    margin-bottom: 20px;
+    font-size: 30px; }
+  div main .contacto-nosotros div p {
+    font-size: 20px; }
+  div main .contacto-nosotros div div {
+    margin-top: 50px; }
+    div main .contacto-nosotros div div h3 {
+      font-weight: bold;
+      font-size: 20px; }
+
+div main .formulario-contactos {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #5FAD41; }
+
+/*----EVENTOS----*/
+div main .opciones-eventos {
+  color: #f9c374;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+div main .eventos-sociales {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/eventossociales.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local; }
+  div main .eventos-sociales div {
+    padding-top: 40%; }
+    div main .eventos-sociales div h2 {
+      font-size: 30px; }
+    div main .eventos-sociales div p {
+      font-size: 15px;
+      margin: 0 25px 0 25px; }
+    div main .eventos-sociales div a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bolder;
+      color: #1e1e24;
+      background-color: #cd1b1b;
+      border-radius: 10px;
+      margin: 0 130px 0 130px;
+      transition: 1s; }
+      div main .eventos-sociales div a:hover {
+        background-color: #5FAD41; }
+
+div main .eventos-empresariales {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/eventosempresariales.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local; }
+  div main .eventos-empresariales div {
+    padding-top: 40%; }
+    div main .eventos-empresariales div h2 {
+      font-size: 30px; }
+    div main .eventos-empresariales div p {
+      font-size: 15px; }
+    div main .eventos-empresariales div a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bolder;
+      color: #1e1e24;
+      background-color: #cd1b1b;
+      border-radius: 10px;
+      margin: 0 130px 0 130px;
+      transition: 1s; }
+      div main .eventos-empresariales div a:hover {
+        background-color: #5FAD41; }
+
+div main .eventos-pizzaparty {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pizzaparty.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local; }
+  div main .eventos-pizzaparty div {
+    padding-top: 40%; }
+    div main .eventos-pizzaparty div h2 {
+      font-size: 30px; }
+    div main .eventos-pizzaparty div p {
+      font-size: 15px; }
+    div main .eventos-pizzaparty div a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bolder;
+      color: #1e1e24;
+      background-color: #cd1b1b;
+      border-radius: 10px;
+      margin: 0 130px 0 130px;
+      transition: 1s; }
+      div main .eventos-pizzaparty div a:hover {
+        background-color: #5FAD41; }
+
+div main .eventos-ejemplos {
+  background-color: #f9c374; }
+  div main .eventos-ejemplos h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; }
+  div main .eventos-ejemplos div img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover; }
+
+div main .marcas-eventos {
+  background-color: #5FAD41;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+  div main .marcas-eventos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  div main .marcas-eventos div img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover; }
+
+/*----SUCURSALES----*/
+div main .mapas-sucursales {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 90vh;
+  background-color: #3F292B;
+  color: #f9c374; }
+  div main .mapas-sucursales div h2 {
+    font-size: 25px; }
+  div main .mapas-sucursales div p {
+    font-size: 20px; }
+  div main .mapas-sucursales div iframe {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px; }
+
+div main .franquicias-sucursales {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/franquicias.jpg);
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff1717;
+  text-align: center; }
+  div main .franquicias-sucursales h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  div main .franquicias-sucursales p {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0 20px 30px 20px; }
+  div main .franquicias-sucursales a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3F292B;
+    background-color: #f9c374;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    transition: 1s; }
+    div main .franquicias-sucursales a:hover {
+      background-color: #5FAD41; }
+
+/*--COLORES--*/
+/*----FOOTER----*/
+div footer {
+  background-color: #cd1b1b;
+  height: 10vh; }
+  div footer div a {
+    margin: 15px; }
+  div footer div h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #1e1e24; }

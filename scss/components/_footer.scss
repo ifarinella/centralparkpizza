@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+/*----FOOTER----*/
+
+div{
+    footer{
+        background-color: #cd1b1b;
+        height: 10vh;
+        div{
+            a{
+                margin: 15px;
+            }
+            h3{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                color: #1e1e24;
+            }
+        }
+    }
+}

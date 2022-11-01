@@ -17,8 +17,9 @@ div header{
     font-weight: 700;
 }
 
-div header nav ul div a img{
-    height: 20vh;
+div header nav ul{
+    list-style: none;
+    text-align: center;
 }
 
 div header nav ul div li a{
@@ -31,9 +32,8 @@ div header nav ul div li a:hover{
     color: #5FAD41;
 }
 
-div header nav ul{
-    list-style: none;
-    text-align: center;
+div header nav ul div li a img{
+    height: 20vh;
 }
 
 
@@ -296,7 +296,6 @@ div header nav ul{
 
 .contacto-nosotros div div{
     margin-top: 50px;
-    
 }
 
 .contacto-nosotros div div h3{
@@ -429,19 +428,18 @@ div header nav ul{
 
 .eventos-ejemplos{
     background-color:#f9c374;
-
 }
 
 .eventos-ejemplos h2{
     text-align: center;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .eventos-ejemplos div img{
     width: 90%;
-    height: 100%;
+    height: 90%;
     border-radius: 10px;
     object-fit: cover;
 }
