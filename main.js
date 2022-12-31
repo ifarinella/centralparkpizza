@@ -25,7 +25,7 @@ const crearCliente = () => {
 
     let clienteNuevo = new Cliente(nombre, apellido, añoNacimiento, telefono)
     
-    listaClientes.push(clienteNuevo);
+    clientesAgregados.push(clienteNuevo);
     localStorage.setItem("clientes", JSON.stringify(clientesAgregados));
     
     return clientesAgregados;
@@ -37,6 +37,19 @@ formulario.onsubmit = (e) => {
     mostrarClientes()
 }
 
+const mostrarClientes = ()=> {
+    const clientesGuardados = JSON.parse(localStorage.getItem("clientes"));
+
+    clientesGuardados.forEach(cliente => {
+        parrafoCliente.innerHTML += `
+                        <div>
+                            <h3>Nombre del cliente: ${cliente.nombre} ${cliente.apellido}</h3>
+                            <h4>Año de nacimiento: ${cliente.añoNacimiento}</h4>
+                            <p>Teléfono: ${cliente.telefono}</p>
+                        </div>
+                        `
+    })
+}
 
 
 
@@ -65,11 +78,4 @@ const crearPedido = () => {
 
     return pedidosRecibidos
 }
-
-const mostrarPedido =
-pedidosRecibidos.forEach(pedido => {
-    let nodo = document.createElement("div");
-    nodo. innerHTML = `<h3>El pedido del cliente ${pedido.nombre} ${pedido.apellido} es ${pedido.cantidadProducto} unidades de ${pedido.producto}.</h3>`
-    document.getElementById("parrafoPedido").appendChild(nodo);
-})
 
