@@ -418,8 +418,31 @@ div{
                 }
             }
         }
+        #empresas{
+            width: 100%;
+            background-color: $color-secundario;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 1s;
+            &:hover{
+                background-color: $color-cuaternario;
+                color: $color-secundario;
+            }
+        }
+        #fetch{
+            width: 100%;
+            text-align: center;
+            background-color: $color-secundario;
+            color: $color-cuaternario;
+            .empresa-nueva{
+                span{
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
+
 
 /*----SUCURSALES----*/
 

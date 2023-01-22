@@ -1,39 +1,3 @@
-//Código para Page: CONTACTO
-
-const formulario = document.querySelector("#altaCliente");
-
-class Cliente {
-    constructor(nombre, apellido, email, telefono){
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.email = email;
-        this.telefono = telefono;
-    }
-}
-
-let parrafoCliente = document.querySelector("#parrafoCliente");
-const clientesAgregados = JSON.parse(localStorage.getItem("clientes")) || [];
-
-
-const crearCliente = () => {
-    let nombre = document.getElementById("nombre").value;
-    let apellido = document.getElementById("apellido").value;
-    let añoNacimiento = document.getElementById("email").value;
-    let telefono = document.getElementById("telefono").value;
-
-    let clienteNuevo = new Cliente(nombre, apellido, añoNacimiento, telefono)
-    
-    clientesAgregados.push(clienteNuevo);
-    localStorage.setItem("clientes", JSON.stringify(clientesAgregados));
-    
-    return clientesAgregados;
-}
-
-
-
-
-
-
 //CARRITO DE COMPRAS
 
 const cart = document.getElementById("cart");
@@ -48,13 +12,13 @@ cart.addEventListener("click", () => {
 
 const closeBtn = document.getElementById("close-btn");
 
-closeBtn.addEventListener('click', () => {
+closeBtn.addEventListener("click", () => {
     cartModalOverlay.classList.remove("open");
 })
 
 
-const addToCart = document.getElementsByClassName('add-to-cart');
-const productRow = document.getElementsByClassName('product-row');
+const addToCart = document.getElementsByClassName("add-to-cart");
+const productRow = document.getElementsByClassName("product-row");
 
 for (let i = 0; i < addToCart.length; i++) {
     button = addToCart[i];
@@ -83,14 +47,14 @@ function agregarProducto (prodID, producto, price, imageSrc) {
     }
     }
     let cartRowItems = `
-    <div class="product-row" id="${prodID}">
-        <img class="cart-image" src="${imageSrc}" alt="">
-        <h3>${producto}</h3>
-        <span class ="cart-price">${price}</span>
-        <input class="product-quantity" type="number" value="1">
-        <button class="remove-btn">Remove</button>
-    </div>
-        `
+                        <div class="product-row" id="${prodID}">
+                            <img class="cart-image" src="${imageSrc}" alt="">
+                            <h3>${producto}</h3>
+                            <span class ="cart-price">${price}</span>
+                            <input class="product-quantity" type="number" value="1">
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    `
     productRow.innerHTML = cartRowItems;
     productRows.append(productRow);
     productRow.getElementsByClassName('remove-btn')[0].addEventListener('click', removerElemento)
@@ -145,7 +109,7 @@ function finalizarCompra () {
         footer: 'Que disfrutes los productos de Central Park Pizza'
     });
     cartModalOverlay.style.transform= 'translateY(-200%)'
-    var cartItems = document.getElementsByClassName('product-rows')[0]
+    const cartItems = document.getElementsByClassName('product-rows')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
 
