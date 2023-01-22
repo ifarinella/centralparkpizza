@@ -242,7 +242,15 @@ div header nav ul div li a img{
 }
 
 .variedades-menu div p{
+    text-align: center;
     font-size: 15px;
+}
+
+.variedades-menu div span{
+    text-align: center;
+    font-size: 15px;
+    border: #1e1e24;
+    border-radius: 10px;
 }
 
 .variedades-menu div img{

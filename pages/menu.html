@@ -37,94 +37,73 @@
                     </div>
                 </ul>
             </nav>
+            <div class="cart-modal-overlay">
+                <div class="cart-modal">
+                    <i id="close-btn">...</i>
+                    <div class="product-rows"> </div>
+                    <div class="total">
+                        <h1 class="cart-total">TOTAL</h1>
+                        <span class="total-price">$0</span>
+                        <button class="purchase-btn">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <a class="cart-btn">
+                <i id="cart"><img src="../img/carrito-de-compras.png" alt="Carrito de compras"></i>
+                <span class="cart-quantity">0</span>
+            </a>
         </header>
         <main>
             <section class="variedades-menu row align-items-center">
                 <h2>Nuestras variedades de pizza</h2>
                 <!--ACÁ VA UNA GALERÍA DE IMAGENES CON VARIEDADES-->
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizza1.jpg" alt="Pizza Columbus Circle">
+                <div class="col-lg-4 col-md-12" id="columbus">
+                    <img class="product-image" src="../img/pizza1.jpg" alt="Pizza Columbus Circle">
                     <h2>Columbus Circle</h2>
                     <p>Clásica. Con salsa de tomate y muzarella.</p>
+                    <h3 class="product-price">$200</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizzabelvederecastle.jpg" alt="Pizza Belvedere Castle">
+                <div class="col-lg-4 col-md-12" id="belvedere">
+                    <img class="product-image" src="../img/pizzabelvederecastle.jpg" alt="Pizza Belvedere Castle">
                     <h2>Belvedere Castle</h2>
                     <p>Liviana. Con tomate fresco, boconccinos y pesto.</p>
+                    <h3 class="product-price">$220</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizzagreatlawn.jpg" alt="Pizza Great Lawn">
+                <div class="col-lg-4 col-md-12" id="great">
+                    <img class="product-image" src="../img/pizzagreatlawn.jpg" alt="Pizza Great Lawn">
                     <h2>Great Lawn</h2>
                     <p>Típica. Con muzarella y pepperoni picante.</p>
+                    <h3 class="product-price">$250</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizza2.jpg" alt="Pizza Strawberry fields">
+                <div class="col-lg-4 col-md-12" id="strawberry">
+                    <img class="product-image" src="../img/pizza2.jpg" alt="Pizza Strawberry fields">
                     <h2>Strawberry Fields</h2>
                     <p>Arriesgada. Con muzarella y salsa de frutillas al malbec.</p>
+                    <h3 class="product-price">$300</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizza3.jpg" alt="Pizza Carrousel">
+                <div class="col-lg-4 col-md-12" id="carrousel">
+                    <img class="product-image" src="../img/pizza3.jpg" alt="Pizza Carrousel">
                     <h2>Carrousel</h2>
                     <p>Sabrosa. Con muzarella, pollo crispy, cheddar melt y cebolla caramelizada.</p>
+                    <h3 class="product-price">$350</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <img src="../img/pizza4.jpg" alt="Pizza Jackie Kennedy">
+                <div class="col-lg-4 col-md-12" id="jackie">
+                    <img class="product-image" src="../img/pizza4.jpg" alt="Pizza Jackie Kennedy">
                     <h2>Jackie Kennedy</h2>
                     <p>Sofisticada. Con muzarella, queso brie, mermelada de cebolla y rúcula.</p>
+                    <h3 class="product-price">$350</h3>
+                    <button class="add-to-cart">Comprar</button>
                 </div>
                 
             </section>
 
-            <section class="formulario-pedidos row" id="altaCliente">
-                <h2>Hacé tu pedido completando el formulario</h2>
-                <form action="" method="" enctype="">
-                    <div class="col-lg-12">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" id="nombre" >
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="apellido" id="apellido">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="añoNacimiento">¿En qué año naciste?:</label>
-                        <input type="number" name="añoNacimiento" id="añoNacimiento">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="telefono">Teléfono:</label>
-                        <input type="text" name="telefono" id="telefono">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="producto">¿Qué pizza querés?:</label>
-                        <input type="text" name="producto" id="producto">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="cantidad">¿Qué cantidad?:</label>
-                        <input type="number" name="cantidad" id="cantidad">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="precio">¿Cuál es el precio?:</label>
-                        <input type="number" name="precio" id="precio">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="contraseña">Elija una contraseña de 4 caracteres numéricos:</label>
-                        <input type="number" name="contraseña" id="contraseña">
-                    </div>
-                    <div class="col-lg-12">
-                        <label for="confirmacion">Confirmae su contraseña:</label>
-                        <input type="number" name="confirmacion" id="confirmacion">
-                    </div>
-                    <div class="col-lg-12">
-                        <h3>Dejanos algún comentario con instrucciones sobre tu pedido</h3>
-                        <textarea name="" id="" cols="40" rows="5" id="comentario"></textarea>
-                    </div>
-                    <div class="col-lg-12">
-                        <input type="submit" value="Enviar pedido" id="confirmarPedido">
-                        <input type="reset" value="Cancelar" id="cancelarPedido">
-                    </div>
-                    <p id="parrafoCliente"></p>
-                </form>
-            </section>
+            
 
             <section class="armatupizza-menu row align-items-center">
                 <div class="col-lg-6 col-md-12">
@@ -153,7 +132,7 @@
         </footer>
     </div>
     
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../main.js"></script>
 
